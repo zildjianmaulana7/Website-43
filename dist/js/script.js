@@ -13,7 +13,7 @@ const ekskulInfo = {
   "Perisai Diri": "Beladiri tradisional Indonesia untuk melatih mental & fisik.",
   "Angklung": "Tim angklung kebanggaan sekolah.",
   "PKS": "Patroli Keamanan Sekolah, menjaga ketertiban lingkungan sekolah.",
-  "Durema": "Drumband / Drum Corps SMPN 43 Bandung.",
+  "Durema": "Remaja yang terpilih atau ditunjuk untuk mewakili dan mempromosikan kegiatan keagamaan serta nilai-nilai Islam di masjid, baik secara lokal maupun yang lebih luas.",
   "Paduan Suara": "Tim paduan suara yang sering juara lomba vokal grup.",
   "Karawitan": "Seni musik tradisional Sunda.",
   "Bola Voli": "Ekskul olahraga voli aktif latihan rutin.",
@@ -43,3 +43,4 @@ closeModal.addEventListener("click", () => {
 window.addEventListener("click", (e) => {
   if (e.target === modal) modal.style.display = "none";
 });
+
